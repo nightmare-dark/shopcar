@@ -1,0 +1,30 @@
+ul li {
+  display: flex;
+  margin: 0.2rem 0.08rem;
+  padding: 0.08rem;
+  border-radius: 0.1rem;
+  box-shadow: 0.01rem 0.01rem 0.02rem 0.02rem #eee;
+}
+
+ul li .img-box {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+ul li .img-box a img {
+  width: 100%;
+  height: 100%;
+}
+
+ul li .content-box {
+  padding-left: 0.15rem;
+  margin-right: 0.15rem;
+}
+
+ul li .content-box h3 {
+  font-size: 0.14rem;
+}
+
+ul li .content-box p {
+  font-size: 0.14rem;
+}

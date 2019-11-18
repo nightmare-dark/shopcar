@@ -1,0 +1,29 @@
+ul {
+  li {
+    display: flex;
+    margin: 0.2rem 0.08rem;
+    padding: 0.08rem;
+    border-radius: 0.1rem;
+    box-shadow: 0.01rem 0.01rem 0.02rem 0.02rem #eee;
+    .img-box {
+      width: 0.8rem;
+      height: 0.8rem;
+      a {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .content-box {
+      padding-left: 0.15rem;
+      margin-right: 0.15rem;
+      h3 {
+        font-size: 0.14rem;
+      }
+      p {
+        font-size: 0.14rem;
+      }
+    }
+  }
+}
